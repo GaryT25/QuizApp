@@ -1,0 +1,60 @@
+body{
+    background-color: #5de6de;
+    background-image: linear-gradient(315deg,#5de6de 0%, #858ecc 74%);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container {
+    background-color:white ;
+    border-radius: 10px;
+    box-shadow: 20px 30px 30px 20px rgba(100, 100, 100, 0.1);
+    width: 400px;
+}
+h2{
+    margin: 0;
+}
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: orange; 
+     position: relative;
+    bottom: 300px;
+    left: 285px;    
+    
+}
+.quiz-header{
+    padding: 4rem;
+}
+ul li{
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+ul li label{
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+button{
+    background-color:#fcbc73 ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    
+}
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+
+}
+h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
